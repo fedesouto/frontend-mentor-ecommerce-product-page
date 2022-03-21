@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+.counter {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  margin: auto;
+  height: 50px;
+  background-color: hsl(223, 64%, 98%);
+  align-items: center;
+  border-radius: 0.5em;
+}
+.counterBtn {
+  padding: 20px;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.priceContainer {
+  display: flex;
+  width: 340px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1em auto;
+}
+.productRegularPrice {
+  text-decoration: line-through;
+  color: hsl(220, 14%, 75%);
+  font-weight: 700;
+}
+.productPrice {
+  font-size: 2em;
+}
+.discount {
+  color: hsl(26, 100%, 55%);
+  font-weight: 700;
+  background-color: hsl(25, 100%, 94%);
+  padding: 0.2em 0.4em;
+  border-radius: 0.4em;
+  margin-left: 1em;
+  text-align: center;
+}
+.addToCart {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5em;
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  font-weight: 700;
+  height: 50px;
+  width: 340px;
+  margin: 1em auto;
+}
+.addToCart svg {
+  margin-right: 10px;
+  transform: scale(0.75);
+}
+
+.productDescription {
+  color: hsl(219, 9%, 45%);
+  width: 340px;
+  margin: auto;
+}
+.description {
+  margin-top: 1.5em;
+}
+.brand {
+  color: hsl(26, 100%, 55%);
+  margin: 1.5em;
+}
+.productTitle {
+    font-size: 2em;
+    width: 340px;
+    margin: 0.5em auto;
+}
+
+.image-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.carrousel {
+  width: 100vw;
+  margin: 0;
+
+}
+.carrousel-btn {
+  position: absolute;
+  top: 35%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.right {
+  right: 1em;
+}
+.left {
+  left: 1em;
+}
+header {
+  padding: 1.5em;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+header .container {
+  align-items: center;
+  justify-content: space-between;
+}
+.mobileNavBarContainer {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 3;
+  top: 0;
+  background-color: hwb(0 0% 100% / 0.75);
+  animation-name: fadeIn;
+  animation-duration: 0.3s;
+
+}
+.mobileNavBar {
+  padding: 2em;
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+.navLink {
+  list-style-type: none;
+  font-weight: 700;
+  padding: 1em 0;
+}
+ul {
+  margin: 0;
+  margin-top: 3em;
+  padding: 0;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+} 
+.badge {
+  background-color: hsl(26, 100%, 55%);
+  color: white;
+  position: absolute;
+  padding: 2px 8px;
+  font-size: 0.5em;
+  border-radius: 1em;
+  text-align: center;
+  top: 15px;
+  right: 60px;
+}
+
+.cartContainer {
+  height: 300px;
+  width: calc(100% - 1em);
+  background-color: white;
+  position: absolute;
+  margin: 0.5em;
+  border-radius: 0.5em;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 20px hsl(219, 9%, 45%);
+  z-index: 2;
+}
+.separator {
+  border-width: 0.05px;
+  width: 100%;
+  margin: 0;
+}
+.cartContainer h3 {
+  margin: 1em;
+}
+.cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: hsl(219, 9%, 45%);
+}
+.hide {
+  display: none;
+}
+.cart-item {
+  display: flex;
+  height: 50px;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.cart-item img {
+  max-height: 100%;
+  width: auto;
+  border-radius: 0.25em;
+}
+
+.cart-item-description p{
+ margin: 0.5em;
+ font-weight: 400;
+}
+.cart-item-description p b {
+  color: black;
+}
+
