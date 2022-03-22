@@ -21,8 +21,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://fedesouto.github.io/frontend-mentor-ecommerce-product-page/)
 
 ## My process
 Mobile version ready, desktop version in progress.
@@ -31,5 +30,5 @@ Mobile version ready, desktop version in progress.
 
 - [React](https://reactjs.org/)
 - [Webpack](https://webpack.js.org/)
-- [CSS]
+- CSS
 
